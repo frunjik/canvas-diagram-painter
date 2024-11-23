@@ -1,4 +1,4 @@
-# Primitive Diagram Painter
+# Diagram Painter
 
 ## Status Primitive
 
