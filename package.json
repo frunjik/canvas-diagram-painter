@@ -1,10 +1,11 @@
 {
-  "dependencies": {
-  },
   "type": "module",
   "name": "freestyle",
   "version": "1.0.0",
-  "devDependencies": {},
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "typescript": "^5.7.2"
+  },
   "scripts": {
     "build:watch": "tsc --watch --lib es2017,dom --target es6 --moduleResolution node --outDir ./dist src/index.ts",
     "build": "tsc --lib es2017,dom --target es6 --moduleResolution node --outDir ./dist src/index.ts",
